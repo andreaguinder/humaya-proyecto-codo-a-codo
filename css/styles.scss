@@ -1,0 +1,137 @@
+/* Estilos de presentacion */
+.banner-portada{
+    background-image: url(/images/central/imagen-central.png);
+    background-repeat: no-repeat;
+}
+
+.container-banner-portada h1{
+    color: #FFFFFF;
+}
+
+.btn-style{
+    color: #FFFFFF;
+    background-color: #D5AC8C;
+    padding: 10px;
+    border-radius: 20px;
+    border: none !important;
+    font-size: 0.85rem;
+}
+
+.separador-secciones{
+    text-align: center;
+    font-weight: bold;
+    padding: 22px;
+    width: 100%;
+    color: #D5AC8C;
+    background-color: #332f30;
+    margin-top: -39px;
+
+    p{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:600px) {
+    
+    h1.title-portada{
+        font-size: 20px !important;
+    }
+
+    .banner-portada{
+        background-position: left;
+        width: 600px;
+    }
+
+    .container-banner-portada {
+        width: 200px;
+        padding: 25px 20px;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 60px -20px 0px;
+        border-radius: 2rem;
+
+        p {
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+
+        button{
+            display: block;
+            margin: 2rem auto 0;
+            }
+        
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1200px) {
+    
+    .banner-portada{
+        background-size: cover;
+    }
+
+    .container-banner-portada {
+            width: 600px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20% auto 10%;
+            border-radius: 2rem;     
+
+        p{
+        color: #FFFAF4;
+        }
+
+        button{
+        display: block;
+        margin: 2rem auto 0;
+        }
+
+        h1{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width:1201px) {
+
+    h1.title-portada{
+        font-size: 30px !important;
+    }
+
+    .banner-portada{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: cover;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .container-banner-portada{
+        width: 75%;
+        padding: 4rem 2rem;
+    }
+
+
+    .container-banner-portada {
+        width: 20rem;
+        padding: 3rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0% 65% 2%;
+        border-radius: 2rem;
+
+        p{
+        color: #FFFAF4;
+        }
+
+        button{
+        display: block;
+        margin: 2rem auto 0;
+        }
+    }
+
+    .style-portada{
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+
+
+}
