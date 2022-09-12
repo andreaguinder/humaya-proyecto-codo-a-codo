@@ -1,6 +1,6 @@
 /* Estilos de presentacion */
 .banner-portada {
-  background-image: url(/images/central/imagen-central.png);
+  background-image: url(../images/central/imagen-central.png);
   background-repeat: no-repeat;
 }
 
@@ -52,6 +52,42 @@
   .container-banner-portada button {
     display: block;
     margin: 2rem auto 0;
+  }
+  .navbar-dark .navbar-toggler {
+    margin-right: 620px;
+  }
+  .orden-productos {
+    display: flex;
+    flex-direction: column;
+  }
+  .orden-productos img {
+    width: 100%;
+  }
+  .bloque-producto {
+    background-color: #000000;
+    align-items: center;
+    padding: 50px;
+  }
+  .bloque-producto span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #D5AC8C;
+  }
+  .title-producto {
+    font-weight: lighter;
+    font-size: 24px;
+    color: #D5AC8C;
+    padding-bottom: 20px;
+  }
+  .info-producto {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+@media screen and (min-width: 524px) and (max-width: 991px) {
+  .navbar-dark .navbar-toggler {
+    margin-right: 320px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {

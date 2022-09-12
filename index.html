@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!------------Logo en URL------------>
     <link rel="shortcut icon" href="images/descarga.jfif" type="image/x-icon">
+    <!--------Enlace a FontAwesome---------->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>HUMAYA</title>
 </head>
 
@@ -26,7 +29,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end  p-1" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end p-1" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -62,27 +65,59 @@
             </div>
         </section>
         <section>
-            <div>
-                <div class="card-recetas">
-                    <p class="title-cards">DULCE DE LECHE TRADICIONAL</p>
-                    <img src="./images/productos/producto1.png" alt="Dulce de leche tradicional"/>
-                    <button class="btn-style">+ info</button>
+            <div class="orden-productos">
+                <div>
+                    <img src="./images/productos/producto1.png"alt="Dulce de leche tradicional"/>
                 </div>
-                <div class="card-recetas">
-                    <p class="title-cards">DULCE DE LECHE SIN AZÚCAR</p>
+                <div class="bloque-producto">
+                    <p class="title-producto">DULCE DE LECHE TRADICIONAL</p>
+                    <div>
+                        <p class="info-producto">Elaboración artesanal de principio a fin, con un sabor
+                            intenso, receta tradicional.
+                        </p>
+                        <span>Presentación en frasco de vidrio de 580g.</span>
+                    </div>
+                    <button class="btn-style-producto">Más info</button>
+                </div>
+                <div>
                     <img src="./images/productos/producto2.png" alt="Dulce de leche sin azúcar"/>
-                    <button class="btn-style">+ info</button>
                 </div>
-                <div class="card-recetas">
-                    <p class="title-cards">DULCE DE LECHE CHOCONUTT</p>
+                <div class="bloque-producto">
+                    <p class="title-producto">DULCE DE LECHE SIN AZÚCAR</p>
+                    <div>
+                        <p class="info-producto">Elaboración artesanal para cuidar tu silueta sin
+                            ewnunciar a nada, endulzado naturalmente con stevia.
+                        </p>
+                        <span>Presentación en frasco de vidrio de 580g. y 280g.</span>
+                    </div>
+                    <button class="btn-style-producto">+ info</button>
+                </div>
+                <div>
                     <img src="./images/productos/producto3.png" alt="Dulce de leche choconutt"/>
-                    <button class="btn-style">+ info</button>
+                </div>
+                <div class="bloque-producto">
+                    <p class="title-producto">DULCE DE LECHE CHOCONUTT</p>
+                    <div>
+                        <p class="info-producto">Elaboración artesanal para el capricho dulce,
+                            combinaciòn de dulce de leche, chocolate y 
+                            pasta de avellanas. Una delicia única.
+                        </p>
+                        <span>Presentación en frasco de vidrio de 280g.</span>
+                    </div>
+                    <button class="btn-style-producto">+ info</button>
                 </div>
             </div>
             <div class="seccion-especial">
-                <p class="title-card-especial">ALFAJORES DE MAICENA</p>
+                <p class="title-producto-especial">ALFAJORES DE MAICENA</p>
                 <img src="./images/productos/maicena.png" alt="Alfajores de Maicena"/>
-                <button class="btn-style">+ info</button>
+                <div>
+                    <p>Alfajores de dulce con coco rallado, relleno con 2cm de pura 
+                        dulzura. Pudiendo elegir entre dulce de leche tradicional,
+                        light o choconutt.
+                    </p>
+                    <span>Presentación en caja de 6 y 12 alfajores.</span>
+                </div>
+                <button class="btn-style-producto-otro">+ info</button>
             </div>
         </section>
         <section>
